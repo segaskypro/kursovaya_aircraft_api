@@ -19,3 +19,4 @@ __pycache__/
 # Project specific
 *.json
 !test_aircrafts.json  # Не игнорируем тестовый файл
+.idea/

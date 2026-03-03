@@ -18,29 +18,31 @@
 - pytest (для тестирования)
 
 ## Установка
-git clone https://github.com/segaskypro/kursovaya_aircraft_api.git
 
 1. Клонировать репозиторий:
-```bash
-git clone https://github.com/твой-логин/kursovaya_aircraft_api.git
-cd kursovaya_aircraft_api
-```
-2. Создать виртуальное окружение:
+   ```bash
+   git clone https://github.com/segaskypro/kursovaya_aircraft_api.git
+   cd kursovaya_aircraft_api
+   ```
 
-```bash
-python -m venv venv
-source venv/bin/activate  # для Linux/Mac
-venv\Scripts\activate     # для Windows
-```
+2. Создать и активировать виртуальное окружение:
+   ```bash
+   python -m venv venv
+   # для Windows:
+   venv\Scripts\activate
+   # для Linux/Mac:
+   source venv/bin/activate
+   ```
+
 3. Установить зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
-```
-### Запуск программы:
-```bash
-python main.py
-```
+4. Запустить программу:
+   ```bash
+   python main.py
+   ```
 
 ## Структура проекта
 ```bash

@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Project specific
+*.json
+!test_aircrafts.json  # Не игнорируем тестовый файл

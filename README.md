@@ -18,6 +18,7 @@
 - pytest (для тестирования)
 
 ## Установка
+git clone https://github.com/segaskypro/kursovaya_aircraft_api.git
 
 1. Клонировать репозиторий:
 ```bash
